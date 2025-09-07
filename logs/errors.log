@@ -1,0 +1,5 @@
+2025-09-07 20:57:30,818 - rag-app - ERROR - {"timestamp": "2025-09-07T12:57:30.818562", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:35:23,890 - rag-app - ERROR - {"timestamp": "2025-09-07T13:35:23.889643", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:43:01,302 - rag-app - ERROR - {"timestamp": "2025-09-07T13:43:01.302891", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:47:59,773 - rag-app - ERROR - {"timestamp": "2025-09-07T13:47:59.773013", "level": "error", "message": "启动失败: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`."}
+2025-09-07 22:12:08,910 - rag-app - ERROR - {"timestamp": "2025-09-07T14:12:08.910739", "level": "error", "message": "处理查询时出错: module 'signal' has no attribute 'SIGALRM'"}

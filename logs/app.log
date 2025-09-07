@@ -1,0 +1,121 @@
+2025-09-07 20:47:01,521 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.521087", "level": "info", "message": "测试基本日志功能"}
+2025-09-07 20:47:01,521 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.521626", "level": "info", "message": "执行步骤开始: test_step - 测试执行步骤", "step_name": "test_step", "step_description": "测试执行步骤", "status": "started"}
+2025-09-07 20:47:01,622 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.622501", "level": "info", "message": "执行步骤完成: test_step - 测试执行步骤", "step_name": "test_step", "step_description": "测试执行步骤", "status": "completed", "duration_seconds": 0.1}
+2025-09-07 20:47:01,623 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.623020", "level": "info", "message": "系统组件启动: 测试组件", "component": "测试组件", "version": "1.0.0", "test_config": "test_value"}
+2025-09-07 20:47:01,623 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.623020", "level": "info", "message": "性能指标: test_metric", "metric_name": "test_metric", "value": 1.5, "unit": "seconds", "context": "test"}
+2025-09-07 20:47:01,624 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.624050", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 20:47:01,624 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.624050", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 20:47:01,624 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.624581", "level": "info", "message": "Redis连接成功"}
+2025-09-07 20:47:01,624 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:01.624581", "level": "info", "message": "RAG链初始化成功"}
+2025-09-07 20:47:01,625 - rag-app - INFO - {"timestamp": "2025-09-07T12:00:00Z", "level": "info", "message": "结构化日志测试", "user_id": "test_user", "action": "test_action", "metadata": {"version": "1.0.0", "environment": "test"}}
+2025-09-07 20:47:24,675 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.675475", "level": "info", "message": "测试基本日志功能"}
+2025-09-07 20:47:24,675 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.675475", "level": "info", "message": "执行步骤开始: test_step - 测试执行步骤", "step_name": "test_step", "step_description": "测试执行步骤", "status": "started"}
+2025-09-07 20:47:24,777 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.777393", "level": "info", "message": "执行步骤完成: test_step - 测试执行步骤", "step_name": "test_step", "step_description": "测试执行步骤", "status": "completed", "duration_seconds": 0.1}
+2025-09-07 20:47:24,777 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.777393", "level": "info", "message": "系统组件启动: 测试组件", "component": "测试组件", "version": "1.0.0", "test_config": "test_value"}
+2025-09-07 20:47:24,777 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.777393", "level": "info", "message": "性能指标: test_metric", "metric_name": "test_metric", "value": 1.5, "unit": "seconds", "context": "test"}
+2025-09-07 20:47:24,778 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.778396", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 20:47:24,778 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.778396", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 20:47:24,778 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.778396", "level": "info", "message": "Redis连接成功"}
+2025-09-07 20:47:24,778 - rag-app - INFO - {"timestamp": "2025-09-07T12:47:24.778396", "level": "info", "message": "RAG链初始化成功"}
+2025-09-07 20:47:24,779 - rag-app - INFO - {"timestamp": "2025-09-07T12:00:00Z", "level": "info", "message": "结构化日志测试", "user_id": "test_user", "action": "test_action", "metadata": {"version": "1.0.0", "environment": "test"}}
+2025-09-07 20:57:01,030 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:01.030200", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 20:57:01,030 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:01.030200", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 20:57:01,030 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:01.030200", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 20:57:01,030 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:01.030200", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 20:57:03,064 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:03.064859", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 20:57:03,064 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:03.064859", "level": "info", "message": "Redis连接成功"}
+2025-09-07 20:57:03,064 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:03.064859", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 20:57:08,139 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:08.139569", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 20:57:08,139 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:08.139569", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 20:57:26,435 - rag-app - INFO - {"timestamp": "2025-09-07T12:57:26.434686", "level": "info", "message": "创建新会话: 68dac4ad-0507-4123-8566-237d4ece6103"}
+2025-09-07 20:57:30,818 - rag-app - ERROR - {"timestamp": "2025-09-07T12:57:30.818562", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:35:01,715 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:01.715466", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 21:35:01,715 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:01.715466", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 21:35:01,715 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:01.715466", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 21:35:01,715 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:01.715466", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 21:35:03,739 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:03.739266", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 21:35:03,740 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:03.740270", "level": "info", "message": "Redis连接成功"}
+2025-09-07 21:35:03,740 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:03.740270", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 21:35:03,740 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:03.740270", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 21:35:03,740 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:03.740270", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:35:09,121 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:09.121975", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:35:09,121 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:09.121975", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 21:35:19,533 - rag-app - INFO - {"timestamp": "2025-09-07T13:35:19.533117", "level": "info", "message": "创建新会话: 18f1fb76-e6b9-41a9-8ab8-6e360d4ff9aa"}
+2025-09-07 21:35:23,890 - rag-app - ERROR - {"timestamp": "2025-09-07T13:35:23.889643", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:41:17,857 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:17.857617", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 21:41:17,857 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:17.857617", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 21:41:17,857 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:17.857617", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 21:41:17,857 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:17.857617", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 21:41:19,912 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:19.912345", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 21:41:19,912 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:19.912345", "level": "info", "message": "Redis连接成功"}
+2025-09-07 21:41:19,912 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:19.912345", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 21:41:19,912 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:19.912345", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 21:41:19,912 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:19.912345", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:41:24,948 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:24.948452", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:41:24,948 - rag-app - INFO - {"timestamp": "2025-09-07T13:41:24.948452", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 21:42:56,882 - rag-app - INFO - {"timestamp": "2025-09-07T13:42:56.882988", "level": "info", "message": "创建新会话: 6ecdd34f-2550-459e-a1ef-7646ed7dff79"}
+2025-09-07 21:43:01,302 - rag-app - ERROR - {"timestamp": "2025-09-07T13:43:01.302891", "level": "error", "message": "处理查询时出错: status_code: 400 \n code: InvalidParameter \n message: input.texts should be array"}
+2025-09-07 21:47:52,546 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:52.546336", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 21:47:52,546 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:52.546336", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 21:47:52,546 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:52.546336", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 21:47:52,547 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:52.547335", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 21:47:54,604 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:54.604861", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 21:47:54,604 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:54.604861", "level": "info", "message": "Redis连接成功"}
+2025-09-07 21:47:54,604 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:54.604861", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 21:47:54,604 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:54.604861", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 21:47:54,604 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:54.604861", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:47:59,675 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:59.675978", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:47:59,676 - rag-app - INFO - {"timestamp": "2025-09-07T13:47:59.676979", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 21:47:59,773 - rag-app - ERROR - {"timestamp": "2025-09-07T13:47:59.773013", "level": "error", "message": "启动失败: Cannot find empty port in range: 7860-7860. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`."}
+2025-09-07 21:52:19,903 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:19.903169", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 21:52:19,903 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:19.903169", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 21:52:19,903 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:19.903690", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 21:52:19,903 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:19.903690", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 21:52:21,963 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:21.963594", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 21:52:21,963 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:21.963594", "level": "info", "message": "Redis连接成功"}
+2025-09-07 21:52:21,963 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:21.963594", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 21:52:21,963 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:21.963594", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 21:52:21,963 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:21.963594", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:52:26,945 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:26.945401", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 21:52:26,945 - rag-app - INFO - {"timestamp": "2025-09-07T13:52:26.945401", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 21:55:03,595 - rag-app - INFO - {"timestamp": "2025-09-07T13:55:03.595295", "level": "info", "message": "创建新会话: daeb4bd3-6dda-454c-aab4-d829d2a0e0d5"}
+2025-09-07 22:01:37,467 - rag-app - INFO - {"timestamp": "2025-09-07T14:01:37.467186", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 16}
+2025-09-07 22:01:41,796 - rag-app - INFO - {"timestamp": "2025-09-07T14:01:41.796446", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 16}
+2025-09-07 22:01:41,796 - rag-app - INFO - {"timestamp": "2025-09-07T14:01:41.796446", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 16"}
+2025-09-07 22:01:41,798 - rag-app - INFO - {"timestamp": "2025-09-07T14:01:41.798243", "level": "info", "message": "配置已更新: {'collection_name': 'My_collection_V1', 'top_k': 16, 'chain_type': 'basic'}"}
+2025-09-07 22:11:54,335 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:54.334907", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 22:11:54,335 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:54.335908", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 22:11:54,335 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:54.335908", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 22:11:54,335 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:54.335908", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 22:11:56,395 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:56.395418", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 22:11:56,395 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:56.395418", "level": "info", "message": "Redis连接成功"}
+2025-09-07 22:11:56,395 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:56.395418", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 22:11:56,395 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:56.395418", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 22:11:56,395 - rag-app - INFO - {"timestamp": "2025-09-07T14:11:56.395418", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:12:01,533 - rag-app - INFO - {"timestamp": "2025-09-07T14:12:01.533655", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:12:01,533 - rag-app - INFO - {"timestamp": "2025-09-07T14:12:01.533655", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 22:12:06,860 - rag-app - INFO - {"timestamp": "2025-09-07T14:12:06.859425", "level": "info", "message": "创建新会话: 34355884-00bc-4fc7-ae7d-9048aa31ca33"}
+2025-09-07 22:12:08,910 - rag-app - ERROR - {"timestamp": "2025-09-07T14:12:08.910739", "level": "error", "message": "处理查询时出错: module 'signal' has no attribute 'SIGALRM'"}
+2025-09-07 22:13:56,619 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:56.619579", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 22:13:56,619 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:56.619579", "level": "info", "message": "服务器地址: http://127.0.0.1:7861"}
+2025-09-07 22:13:56,619 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:56.619579", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 22:13:56,621 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:56.619579", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 22:13:58,660 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:58.660636", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 22:13:58,661 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:58.661144", "level": "info", "message": "Redis连接成功"}
+2025-09-07 22:13:58,661 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:58.661144", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 22:13:58,661 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:58.661144", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 22:13:58,661 - rag-app - INFO - {"timestamp": "2025-09-07T14:13:58.661144", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:14:03,795 - rag-app - INFO - {"timestamp": "2025-09-07T14:14:03.795342", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:14:03,796 - rag-app - INFO - {"timestamp": "2025-09-07T14:14:03.795342", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 22:15:21,385 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:21.385530", "level": "info", "message": "正在启动Gradio界面..."}
+2025-09-07 22:15:21,385 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:21.385530", "level": "info", "message": "服务器地址: http://127.0.0.1:7860"}
+2025-09-07 22:15:21,385 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:21.385530", "level": "info", "message": "最大会话数: 10"}
+2025-09-07 22:15:21,385 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:21.385530", "level": "info", "message": "执行步骤开始: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "started", "host": "localhost", "port": 6379, "db": 0}
+2025-09-07 22:15:23,471 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:23.471559", "level": "info", "message": "执行步骤完成: redis_init - 初始化Redis连接", "step_name": "redis_init", "step_description": "初始化Redis连接", "status": "completed"}
+2025-09-07 22:15:23,471 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:23.471559", "level": "info", "message": "Redis连接成功"}
+2025-09-07 22:15:23,471 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:23.471559", "level": "info", "message": "RAG链实例已重置"}
+2025-09-07 22:15:23,471 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:23.471559", "level": "info", "message": "向量存储管理器实例已重置"}
+2025-09-07 22:15:23,471 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:23.471559", "level": "info", "message": "执行步骤开始: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "started", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:15:29,876 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:29.876291", "level": "info", "message": "执行步骤完成: rag_chain_init - 初始化RAG链", "step_name": "rag_chain_init", "step_description": "初始化RAG链", "status": "completed", "collection_name": "My_collection_V1", "top_k": 5}
+2025-09-07 22:15:29,877 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:29.877291", "level": "info", "message": "RAG链初始化成功 - 集合: My_collection_V1, top_k: 5"}
+2025-09-07 22:15:34,632 - rag-app - INFO - {"timestamp": "2025-09-07T14:15:34.632025", "level": "info", "message": "创建新会话: d540a0ee-0ad7-4cf6-86bb-250f1e685c08"}
